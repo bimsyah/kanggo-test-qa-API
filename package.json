@@ -1,0 +1,20 @@
+{
+  "name": "fazztrack_api",
+  "version": "1.0.0",
+  "description": "belajar_api_fazztrack",
+  "main": "index.js",
+  "scripts": {
+    "hulahula": "python --version",
+    "check-mocha-version": "npx mocha --version",
+    "test-api": "npx mocha ./tests/**/*.js --timeout=5000 --require ./hooks/hooks.js --reporter mochawesome"
+  },
+  "author": "DhonyImamS",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  }
+}
